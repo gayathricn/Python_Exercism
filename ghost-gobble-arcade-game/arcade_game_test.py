@@ -143,5 +143,5 @@ class GhostGobbleGameTest(unittest.TestCase):
         self.assertIs(actual_result, False, msg=error_message)
 
 
-if __name__ == "__main__":
+        if __name__ == "__main__":
     unittest.main(verbosity=2)
